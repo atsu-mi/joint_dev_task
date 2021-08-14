@@ -5,7 +5,7 @@ def q1
   names = ["田中", "佐藤", "佐々木", "高橋"]
 
   # 以下に回答を記載
-
+  p names << "斉藤"
 end
 
 def q2
@@ -13,7 +13,8 @@ def q2
   array2 = ["bird", "bat", "tiger"]
 
   # 以下に回答を記載
-
+  new_array = array1 + array2
+  p new_array
 end
 
 def q3
