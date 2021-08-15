@@ -45,7 +45,7 @@ def q5
 
     array2
     # 実行結果
-    #{array2.empty}
+    #{array2.empty?}
    TEXT
 end
 
